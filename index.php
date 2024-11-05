@@ -13,8 +13,8 @@ echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
 $servername = "192.168.1.30";
 $username = "root";
-$password = "Senha123";
-$database = "meubanco";
+$password = "senha123";
+$database = "banco";
 
 // Criar conexão
 $link = new mysqli($servername, $username, $password, $database);
